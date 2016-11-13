@@ -1,0 +1,355 @@
+/*
+ Theme Name: Beach Life
+ Theme URI:    http://mesouser.design/themes/beachlife/
+ Description:  Beach Life is a highly customized Twentyfifteen Child Theme. Thank you WordPress!
+ Author:       M. E. Souser
+ Author URI:   http://mesouser.design
+ Template:     twentyfifteen
+ Version:      1.0.0
+ Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ Text Domain: twentyfifteen
+ */
+
+@import url("../twentyfifteen/style.css");
+
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+
+
+/** theme styles start here! **/
+/* FONTS */
+
+@font-face {
+    font-family: 'Kalam', cursive;
+}
+@font-face {
+    font-family: 'Pacifico', cursive;
+}
+
+/*@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/opensans-regular.eot');
+    src: url('fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular.woff') format('woff'),
+         url('fonts/opensans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/opensans-bold.eot');
+    src: url('fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold.woff') format('woff'),
+         url('fonts/opensans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/opensans-semibold.eot');
+    src: url('fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold.woff') format('woff'),
+         url('fonts/opensans-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat-regular.eot');
+    src: url('fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular.woff') format('woff'),
+         url('fonts/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat-bold.eot');
+    src: url('fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-bold.woff') format('woff'),
+         url('fonts/montserrat-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+/********************************
+ MAIN STYLES 
+ ********************************/
+
+body {
+	font: 17px/1.65 'Kalam', cursive;
+    color: #878787;
+}
+
+
+.site-title {
+    font-family: 'Pacifico', cursive;
+}
+.site-description {
+    font-family: 'Kalam', cursive;
+    font-size: 1em;
+    color: #000;
+}
+
+/* LOGO */
+.custom-logo {
+    border-radius: 100px;
+    background: url('mesouser.design');
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    max-height: 55%;
+    max-width: 55%;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    background-color: #fff;
+    opacity: .8;
+	border-right: 6px solid #878787;
+    height: 100%;
+
+}
+.sidebar .site-branding {
+	text-align: center;
+}
+
+h2.widget-title {
+    font-family: 'Kalam', cursive;
+}
+.widget {
+    font-size: 1.0em;
+}
+
+/* unvisited link */
+.secondary ul li a:link {
+    color: inherit;
+}
+
+/* mouse over link */
+.secondary ul li a:hover {
+    color: #000;
+    font-family: 'Kalam', cursive;
+}
+
+/* selected link */
+.secondary ul li a:active {
+    color: #000;
+    font-family: 'Kalam', cursive;
+}
+.nav-menu {
+    font-size: 1.2em;
+}
+
+/********************************
+ BLOG PAGE STYLES 
+ ********************************/
+.entry-title {
+    font-family: 'Kalam', cursive;
+}
+
+.entry-content {
+	border: 15px;
+}
+.entry-content p strong {
+    font-family: 'Kalam', cursive;
+    color: #000;
+}
+
+blockquote {
+    font-family: 'Kalam', cursive;
+    border-left: 4px solid #707070;
+    border-left: 4px solid rgba(51, 51, 51, 0.7);
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.6667;
+    margin-bottom: 1.6667em;
+    padding-left: 0.7778em;
+}
+
+/********************************
+ BLOG STYLES - SINGLE POST
+ ********************************/
+h1.entry-title {
+   color: #000; 
+}
+
+
+
+/********************************
+ PROJECT STYLES - SINGLE POST
+ ********************************/
+
+.page-content {
+    background-color: #fff;
+    padding: 7.6923%;
+    margin-bottom: 5%;
+}
+
+.project-images {
+    text-align: center;
+}
+.project-images img {
+    padding: 20px;
+}
+
+
+.project-url p {
+    text-align: center;
+}
+
+.project-url a {
+    background: #d5af08;
+    border: #d5af08;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
+
+.project-url a:hover {
+    background-color: #000;
+}
+
+.project-content h3 {
+    font-family: 'Kalam', cursive;
+    border-left: 4px solid #707070;
+    border-left: 4px solid rgba(51, 51, 51, 0.7);
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.6667;
+    margin-bottom: 1.6667em;
+    padding-left: 0.7778em;
+}
+
+
+header h1 a {
+    text-decoration: none;
+}
+
+/********************************
+LANDING PAGE STYLES
+ ********************************/
+
+.sidebar-landing h3 {
+    display: none;
+}
+
+
+/********************************
+SOCIAL NAVIGATION
+ ********************************/
+
+#menu-sm {
+    text-align: center;
+}
+
+
+/********************************
+NAVIGATION PAGINATION
+ ********************************/
+.nav-links {
+    font-family: 'Kalam', cursive;
+}
+
+
+
+
+
+/********************************
+FOOTER
+ ********************************/
+.site-footer {
+    font-family: 'Pacifico', cursive;
+}
+
+
+/********************************
+NINJA FORMS
+ ********************************/
+
+.nf-form-content {
+    text-align: center;
+}
+
+.nf-form-cont .nf-form-title h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+/********************************
+MEDIA QUERIES
+ ********************************/
+
+@media screen and (min-width: 400px) {
+    .custom-logo {
+        max-height: 55%;
+        max-width: 55%;
+    }
+    .sidebar-landing button.secondary-toggle,
+    .sidebar-landing button.secondary-toggle:focus {
+        background-color: transparent;
+        border: 1px solid #c1c1c1;
+        border: 1px solid rgba(51, 51, 51, 0.3);
+        outline: 0;
+    }
+
+    .secondary-toggle.toggled-on:before {
+        content: "\f405";
+        font-size: 32px;
+        position: relative;
+        top: 1px;
+        left: -1px;
+    }
+
+}
+
+@media screen and (min-width: 620px) {
+    .custom-logo {
+        max-height: 45%;
+        max-width: 45%;   
+    }
+    .secondary {
+        text-align: center;    
+    }
+  
+}
+
+
+@media screen and (min-width: 955px) {
+    .custom-logo {
+        max-height: 100%;
+        max-width: 100%;    
+    }
+    .secondary {
+        text-align: left;    
+    } 
+}
+
+@media screen and (min-width: 1051px) {
+    .custom-logo {
+        max-height: 100%;
+        max-width: 100%;   
+    }
+    .secondary {
+        text-align: left;    
+    }    
+}
+
+
+
+
+
+
+
+
+
+
