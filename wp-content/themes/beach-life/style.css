@@ -28,58 +28,14 @@
     font-family: 'Pacifico', cursive;
 }
 
-/*@font-face {
-    font-family: 'OpenSans';
-    src: url('fonts/opensans-regular.eot');
-    src: url('fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-regular.woff') format('woff'),
-         url('fonts/opensans-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'OpenSans';
-    src: url('fonts/opensans-bold.eot');
-    src: url('fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-bold.woff') format('woff'),
-         url('fonts/opensans-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'OpenSans';
-    src: url('fonts/opensans-semibold.eot');
-    src: url('fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-semibold.woff') format('woff'),
-         url('fonts/opensans-semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/montserrat-regular.eot');
-    src: url('fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/montserrat-regular.woff') format('woff'),
-         url('fonts/montserrat-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/montserrat-bold.eot');
-    src: url('fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/montserrat-bold.woff') format('woff'),
-         url('fonts/montserrat-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}*/
+
 
 /********************************
  MAIN STYLES 
  ********************************/
 
 body {
-	font: 17px/1.65 'Kalam', cursive;
+    font: 17px/1.65 'Kalam', cursive;
     color: #878787;
 }
 
@@ -109,12 +65,12 @@ body {
 .sidebar {
     background-color: #fff;
     opacity: .8;
-	border-right: 6px solid #878787;
+    border-right: 6px solid #878787;
     height: 100%;
 
 }
 .sidebar .site-branding {
-	text-align: center;
+    text-align: center;
 }
 
 h2.widget-title {
@@ -152,7 +108,7 @@ h2.widget-title {
 }
 
 .entry-content {
-	border: 15px;
+    border: 15px;
 }
 .entry-content p strong {
     font-family: 'Kalam', cursive;
@@ -343,13 +299,4 @@ MEDIA QUERIES
         text-align: left;    
     }    
 }
-
-
-
-
-
-
-
-
-
 
