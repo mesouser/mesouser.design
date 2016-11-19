@@ -28,16 +28,7 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
-		<div class="front-projects">
-			<?php query_posts ('posts_per_page=3&post_type=projects'); ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title(); ?></h2>
-					<?php the_excerpt(); ?> 
-					<a href="<?php the_permalink(); ?>"> Read More </a>
-				<?php endwhile; ?>
-				<?php wp_reset_query(); ?>
 
-		</div>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

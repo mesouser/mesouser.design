@@ -12,7 +12,8 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<div id="main" class="site-main" role="main">
 
-		<?php while ( have_posts() ) : the_post();
+		<?php 
+		while ( have_posts() ) : the_post();
 			$size = "full";
 			$project_description = get_field('project_description');
 			$project_image_1 = get_field('project_image_1');
@@ -47,9 +48,6 @@ get_header(); ?>
 						<?php echo wp_get_attachment_image( $project_image_3, $size ); ?>
 					<?php } ?>
 				</div>
-
-
-
 
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .site-main -->
