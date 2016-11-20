@@ -82,18 +82,22 @@ h2.widget-title {
 
 /* unvisited link */
 .secondary ul li a:link {
-    color: inherit;
+    color: #878787;
+}
+
+.secondary ul li a:visited {
+    color: #000;
 }
 
 /* mouse over link */
 .secondary ul li a:hover {
-    color: #000;
+    color: #d5af08;
     font-family: 'Kalam', cursive;
 }
 
 /* selected link */
 .secondary ul li a:active {
-    color: #000;
+    color: #d5af08;
     font-family: 'Kalam', cursive;
 }
 .nav-menu {
@@ -136,7 +140,30 @@ h1.entry-title {
    color: #000; 
 }
 
+/********************************
+ PROJECT STYLES - ARCHIVE PAGE
+ ********************************/
 
+.archive-title a h1 {
+    text-decoration: none;
+ }
+
+ /* unvisited link */
+.archive-title a h1:link {
+    color: inherit;
+}
+
+/* mouse over link */
+.archive-title a h1:hover {
+    color: #d5af08;
+    font-family: 'Kalam', cursive;
+}
+
+/* selected link */
+.archive-title a h1:active {
+    color: #d5af08;
+    font-family: 'Kalam', cursive;
+}
 
 /********************************
  PROJECT STYLES - SINGLE POST

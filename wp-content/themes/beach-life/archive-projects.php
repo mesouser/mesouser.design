@@ -22,7 +22,11 @@ get_header(); ?>
 
 			<article class="entry-content page-content project-content">
 				<header>
-					<h1 class="entry-title">Project Title: <?php the_title(); ?></a></h1>
+					<div class="archive-title">
+						<a href="<?php the_permalink(); ?>">
+							<h1 class="entry-title">Project Title: <?php the_title(); ?></h1>
+						</a>
+					</div>
 				</header>
 
 				<div>
