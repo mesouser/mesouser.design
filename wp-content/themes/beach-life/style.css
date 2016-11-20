@@ -42,6 +42,7 @@ body {
 
 .site-title {
     font-family: 'Pacifico', cursive;
+
 }
 .site-description {
     font-family: 'Kalam', cursive;
@@ -60,17 +61,32 @@ body {
     max-width: 55%;
 }
 
-/* SIDEBAR */
+/********************************
+ SIDEBAR
+ ********************************/
+
+#masthead {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
 
 .sidebar {
     background-color: #fff;
     opacity: .8;
     border-right: 6px solid #878787;
-    height: 100%;
+    height: auto;
+
 
 }
 .sidebar .site-branding {
     text-align: center;
+}
+
+.social-navigation {
+    margin-bottom: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h2.widget-title {
@@ -84,7 +100,7 @@ h2.widget-title {
 .secondary ul li a:link {
     color: #878787;
 }
-
+/* visited link */
 .secondary ul li a:visited {
     color: #000;
 }
@@ -231,9 +247,6 @@ LANDING PAGE STYLES
 SOCIAL NAVIGATION
  ********************************/
 
-#menu-sm {
-    text-align: center;
-}
 
 
 /********************************
@@ -301,7 +314,7 @@ MEDIA QUERIES
         max-width: 45%;   
     }
     .secondary {
-        text-align: center;    
+        text-align: left;    
     }
   
 }
