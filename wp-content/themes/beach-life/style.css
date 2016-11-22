@@ -271,19 +271,26 @@ FOOTER
 /********************************
 NINJA FORMS
  ********************************/
-h2.nija-forms-form-title {
-    color: #000;
+.nija-forms-form-title h2 
+/*.nija-forms-field
+.ninja-forms-field 
+.nf-element 
+.submit-container*/ {
+    text-align: center;
+    text-transform: uppercase;
+    color: #d7b108;
+}
+
+.nf-form-cont .nf-form-title h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #d7b108;
 }
 
 .nf-form-content {
     text-align: center;
 }
 
-.nf-form-cont .nf-form-title h3 {
-    text-align: center;
-    text-transform: uppercase;
-    color: red;
-}
 /********************************
 MEDIA QUERIES
  ********************************/
