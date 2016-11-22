@@ -271,11 +271,7 @@ FOOTER
 /********************************
 NINJA FORMS
  ********************************/
-.entry-content h2 
-/*.nija-forms-field
-.ninja-forms-field 
-.nf-element 
-.submit-container*/ {
+.entry-content h2 {
     text-align: center;
     text-transform: uppercase;
     color: #d7b108;
