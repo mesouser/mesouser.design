@@ -271,6 +271,9 @@ FOOTER
 /********************************
 NINJA FORMS
  ********************************/
+h2.nija-forms-form-title {
+    color: #000;
+}
 
 .nf-form-content {
     text-align: center;
